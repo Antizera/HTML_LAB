@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+    color:#333;
+}
+*,
+*:before,
+*:after
+{
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* Container */
+.container{
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+
+/*IMG*/
+.btn
+{
+float:left;
+margin:0 auto;
+}

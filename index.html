@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+<title>WEB_LAB</title>
+</head>
+
+<body>
+
+
+  <script>
+    let a=5;
+    function Test (a)
+    {
+      return(a+1);
+    }
+    //alert(Test(a));
+  </script>
+
+
+
+
+
+
+<script>
+  function Test2(){
+  let array = [1,2,'qwer',4,5,'qwe'];
+  let i=0;
+  alert(array);
+  for (i;i<array.length;i++)
+  {
+    if (typeof(array[i])=="string")
+    array[i]=0;
+    else
+    array[i]*=array[i];  
+  }
+ 
+  alert(array);}
+</script>
+  
+
+<input type="button" value="Квадрат массива"  onclick="Test2();">
+
+
+
+  
+ <div class="container">
+  <h1>ФОТО</h1>
+            <button id="btn">Кнопка</button>
+    <script>
+        btn.onclick=function(){if(!document.getElementById('img')){var image=document.createElement('img');image.id="img";image.src="assets/images/IMG.jpg";document.body.appendChild(image)}}
+    </script>
+            </div>
+
+           
+            <h2>ОБО МНЕ</h2>
+            <p>Я делаю это в 5 утра после того как долго играл в WOW.</p>
+              <p> Я устал и хочу пойти спать но это интересно и непонятно.
+            </p>
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
